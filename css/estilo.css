@@ -27,13 +27,13 @@ body{
     padding:0;
     font-family:'Amatic SC', cursive;
 }
-a{
+nav a{
     color:white;
     text-decoration: none; /*tira o link do nav*/
     font-size: 1.5em;
 }
 
-a:hover{
+nav a:hover{
     color:#9AC0CD;
 }
 
