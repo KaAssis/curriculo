@@ -1,0 +1,121 @@
+.header{
+    background-color:#6C7B8B;
+    text-align:center;
+    padding:20px;
+    margin-bottom:10px;
+}
+
+.imagemdeperfil{
+    align-content:center;
+    width:200px;
+}
+
+.navegacao-list{
+    height:100%;
+    margin-top:10px;
+}
+.navegacao-list-item{
+    display: inline;
+    margin:0 8px; /* primeiro valor (em cima e embaixo) segundo valor (esquerda e direita) - valores no sentido horário começando no topo*/
+    padding-top:4px;   
+}
+.imagemdeperfil{
+    border-radius:50%;
+}
+body{
+    margin:5px;
+    padding:0;
+    font-family:'Amatic SC', cursive;
+}
+a{
+    color:white;
+    text-decoration: none; /*tira o link do nav*/
+    font-size: 1.5em;
+}
+
+a:hover{
+    color:#9AC0CD;
+}
+
+h1{
+    color:#CDB7B5;
+    /*font-family:'Amatic SC', cursive; - se vc configurar no body, pega em tudo - ver no body*/
+    font-size:2.5em;
+}
+h2{
+    color:#CDB7B5;
+    /*font-family:'Amatic SC', cursive;*/
+    font-size:2em;
+}
+main{
+    background-color:white;
+    width:90%;
+    margin-left:10%;
+    margin-right:10%;
+    /*text-align:center;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    font-size:110%;
+    text-align:justify;
+    padding:20px;
+    color:#363636;
+}
+
+section{
+    display:flex;
+}
+
+section h3{
+    width:25%;
+    min-width:300px;
+    font-weight: bold
+}
+
+section h4{
+    width:80%;
+    min-width:300px;
+    font-weight: bold
+    
+}
+section h5{
+    width:35%;
+    min-width:220px;
+    margin-right:20px;
+    font-weight: bold
+}
+ul{
+    padding:20px 20px 0 20px;
+}
+li{
+    list-style-type: circle;
+}
+
+section{
+    border-top: 1px solid #6C7B8B;
+}
+h4{
+    font-weight: bold;
+}
+
+p{
+    font-size:1.3em;
+}
+footer{
+    background-color:#6C7B8B;
+    text-align:center;
+    color:#CDB7B5;
+    font-weight: bold;
+    padding:12px;
+    font-size:1em;
+}
+footer a{
+    color:#CDB7B5;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#9AC0CD;
+}
+
+
+
+
